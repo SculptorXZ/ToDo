@@ -1,4 +1,4 @@
-# ToDoToDoList-Jadwal
+# ToDoList-Jadwal
 
 ToDoList-Jadwal adalah aplikasi manajemen produktivitas yang dirancang khusus untuk mahasiswa atau pelajar guna mengelola beban akademik secara terorganisir. Aplikasi ini menggabungkan dua fitur utama: manajemen tugas/ujian dan pengaturan jadwal kuliah harian dalam satu platform yang sederhana dan intuitif.
 Dengan menggunakan arsitektur Android modern (MVVM, Room Database, dan Navigation Component), aplikasi ini memastikan data tersimpan secara lokal dengan aman dan antarmuka yang responsif.
