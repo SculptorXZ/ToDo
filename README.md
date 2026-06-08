@@ -16,25 +16,25 @@ Dengan menggunakan arsitektur Android modern (MVVM, Room Database, dan Navigatio
 ## Cara Penggunaan Aplikasi
 
 1. Navigasi Utama
-Di bagian bawah layar, terdapat dua menu utama:
+- Di bagian bawah layar, terdapat dua menu utama:
 • Tugas dan Ujian: Klik ikon "Todo" untuk melihat atau menambah daftar tugas.
 • Jadwal Kuliah: Klik ikon "Jadwal" untuk melihat susunan jadwal kuliah Anda.
 
 2. Mengelola Jadwal Kuliah
-• Melihat Jadwal: Masuk ke menu "Jadwal Kuliah". Daftar jadwal akan ditampilkan urut berdasarkan waktu atau hari.
+- • Melihat Jadwal: Masuk ke menu "Jadwal Kuliah". Daftar jadwal akan ditampilkan urut berdasarkan waktu atau hari.
 • Menambah Jadwal Baru:
   - i. Klik tombol tambah (+) atau Floating Action Button di pojok kanan bawah.
   - ii. Isi data yang diperlukan: Nama Mata Kuliah, Nama Dosen, Hari, Jam Mulai, Jam Selesai, dan Ruangan.
   - iii. Klik Simpan.
-• Menghapus Jadwal: Tekan lama pada salah satu item jadwal atau klik ikon hapus (jika tersedia) untuk membersihkan jadwal yang sudah tidak relevan.
+- • Menghapus Jadwal: Tekan lama pada salah satu item jadwal atau klik ikon hapus (jika tersedia) untuk membersihkan jadwal yang sudah tidak relevan.
 
 3. Mengelola Tugas dan Ujian
-• Melihat Daftar Tugas: Masuk ke menu "Tugas dan Ujian". Anda akan melihat daftar pekerjaan rumah atau rencana ujian.
+- •Melihat Daftar Tugas: Masuk ke menu "Tugas dan Ujian". Anda akan melihat daftar pekerjaan rumah atau rencana ujian.
 •Menambah Tugas:
   - i.Klik tombol tambah (+).
   - ii.Masukkan judul tugas, deskripsi singkat, dan tanggal tenggat waktu.
   - iii.Klik Simpan.
-• Menandai Selesai: Anda bisa menghapus atau menandai tugas yang sudah dikerjakan agar daftar tetap rapi
+- •Menandai Selesai: Anda bisa menghapus atau menandai tugas yang sudah dikerjakan agar daftar tetap rapi
 
 4. Pengaturan Waktu
-Saat menambah jadwal atau tugas, aplikasi akan memunculkan Time Picker (pemilih jam) atau Date Picker (pemilih tanggal). Cukup pilih waktu yang sesuai, lalu tekan OK agar format waktu tercatat dengan benar secara otomatis.
+- Saat menambah jadwal atau tugas, aplikasi akan memunculkan Time Picker (pemilih jam) atau Date Picker (pemilih tanggal). Cukup pilih waktu yang sesuai, lalu tekan OK agar format waktu tercatat dengan benar secara otomatis.
