@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDo &amp; Jadwal</string>
+    <string name="title_tasks">Tugas &amp; Ujian</string>
+    <string name="title_schedule">Jadwal Kuliah</string>
+    <string name="add_task">Tambah Tugas</string>
+    <string name="add_schedule">Tambah Jadwal</string>
+    <string name="task_title_hint">Judul Tugas/Ujian</string>
+    <string name="task_desc_hint">Deskripsi</string>
+    <string name="subject_name_hint">Nama Mata Kuliah</string>
+    <string name="room_hint">Ruangan</string>
+    <string name="deadline">Deadline: %s</string>
+    <string name="room_label">Ruang: %s</string>
+    <string name="type_task">TUGAS</string>
+    <string name="type_exam">UJIAN</string>
+</resources>

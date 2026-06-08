@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ToDoListJadwal" parent="Theme.MaterialComponents.DayNight">
+        <!-- Background Bar Judul (Action Bar) dibuat putih -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/orange</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="colorOnSurface">@color/orange</item>
+
+        <item name="android:textColorPrimary">@color/orange</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorAccent">@color/orange</item>
+
+        <item name="actionBarStyle">@style/Widget.App.ActionBar</item>
+
+        <!-- Theme for Dialogs and Pickers -->
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="android:timePickerDialogTheme">@style/ThemeOverlay.App.TimePickerDialog</item>
+        <item name="android:datePickerDialogTheme">@style/ThemeOverlay.App.TimePickerDialog</item>
+
+        <!-- Status bar color agar putih dengan ikon gelap -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Widget.App.ActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/white</item>
+        <item name="titleTextStyle">@style/Widget.App.ActionBar.TitleText</item>
+        <!-- Menambahkan titleTextColor untuk kompatibilitas -->
+        <item name="titleTextColor">@color/black</item>
+    </style>
+
+    <style name="Widget.App.ActionBar.TitleText" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Theme for Alert Dialogs -->
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.App.Button.TextButton.Dialog</item>
+    </style>
+
+    <!-- Theme for TimePicker and DatePicker -->
+    <style name="ThemeOverlay.App.TimePickerDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:colorAccent">@color/orange</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.App.Button.TextButton.Dialog</item>
+    </style>
+
+    <!-- Style for text buttons in dialogs to be orange -->
+    <style name="Widget.App.Button.TextButton.Dialog" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+</resources>

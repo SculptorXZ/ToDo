@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tasksFragment">
+
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.example.todolistjadwal.ui.TasksFragment"
+        android:label="Tugas &amp; Ujian"
+        tools:layout="@layout/fragment_tasks" />
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.todolistjadwal.ui.ScheduleFragment"
+        android:label="Jadwal Kuliah"
+        tools:layout="@layout/fragment_schedule" />
+</navigation>
